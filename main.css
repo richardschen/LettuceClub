@@ -1,3 +1,9 @@
+html {
+  font-size: 62.5%;
+  @media (max-width: 575.98px) {
+    font-size: 55%;
+  }
+}
 
 body {
   margin: 0;
@@ -7,29 +13,40 @@ body {
 h1, h2, h3, h4, h5, h6, p {
   margin: 0; }
 
+nav {
+  font-size: 2rem;
+}
+
 section.black {
-  background-color: black;
-  color: white; }
+  background-color: #F2F5DE;
+  color: black; }
 
 section.white {
-  background-color: white;
+  background-color: #D0FFB7;
   color: black; }
 
 section.padded {
   padding-top: 8rem;
-  padding-bottom: 8rem; }
+  padding-bottom: 8rem;
+}
 
 section.hero {
+  background-color: #D0FFB7;
   width: 100%;
   height: 100vh;
   padding-top: 10rem;
   padding-bottom: 10rem;
   text-align: center;
+
 }
 
 section.hero h1 {
   font-size: 5rem;
   font-weight: 500; }
+
+section.content {
+  font-size: 1.5rem;
+}
 
 section.content .container .row, section.content .container-fluid .row {
   padding-top: 3rem; }
@@ -39,3 +56,10 @@ section.content .container .row, section.content .container-fluid .row {
     border: 0.1rem solid black; }
   section.content .container .row .column-pad, section.content .container-fluid .row .column-pad {
     padding-top: 2rem; }
+
+footer {
+  font-size: 2rem;
+  padding-top: 4rem;
+  background-color: #D0FFB7;
+  padding-bottom: 4rem;
+}
