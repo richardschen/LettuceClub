@@ -1,0 +1,41 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0; }
+
+section.black {
+  background-color: black;
+  color: white; }
+
+section.white {
+  background-color: white;
+  color: black; }
+
+section.padded {
+  padding-top: 8rem;
+  padding-bottom: 8rem; }
+
+section.hero {
+  width: 100%;
+  height: 100vh;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  text-align: center;
+}
+
+section.hero h1 {
+  font-size: 5rem;
+  font-weight: 500; }
+
+section.content .container .row, section.content .container-fluid .row {
+  padding-top: 3rem; }
+  section.content .container .row .border-white, section.content .container-fluid .row .border-white {
+    border: 0.1rem solid white; }
+  section.content .container .row .border-black, section.content .container-fluid .row .border-black {
+    border: 0.1rem solid black; }
+  section.content .container .row .column-pad, section.content .container-fluid .row .column-pad {
+    padding-top: 2rem; }
